@@ -13,7 +13,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    checkisloggedin();
+    // checkisloggedin();
   }, [])
   return (
     <>
@@ -30,3 +30,4 @@ export default function Home() {
 
   );
 }
+``
