@@ -8,8 +8,8 @@ export async function POST(request) {
     );
 
     if (userFound) {
-        return Response.json({ success: true });
+        return Response.json({ success: true, id: userFound.id });
     }
 
-    return Response.json({ "idotit": 'nott', success: false, status: 401 });
+    return Response.json({ "accessoken ": 'ddisudisodoiu8we82092oijoei3880293890', success: false, status: 401 });
 }
