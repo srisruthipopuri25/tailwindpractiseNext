@@ -23,7 +23,7 @@ export default function login() {
             localStorage.setItem("login", "true");
             redirect('/dashboard');
         } else {
-            alert("Invalid credentials");
+            alert("Invalid entered credentials");
         }
 
     }
